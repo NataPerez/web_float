@@ -1,0 +1,70 @@
+aside{
+    float: left;
+    width: 250px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    margin: 20px 5px;
+    padding: 25px;
+    border: solid 2px var(--gray-color);
+    box-shadow: 3px 3px 3px var(--gray-color); 
+}
+
+aside h3 {
+    font-size: 18px;
+    font-family: "NunitoSans-Bold", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    text-transform: uppercase;
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: 3px;
+    border-top: solid 4px var(--secondary-color-dark);
+    border-bottom: solid 4px var(--secondary-color-dark);
+    margin-bottom: 10px;
+}
+.widget{
+    margin-bottom: 50px;
+}
+.widget form input[type=email],
+.widget form input[type=password]{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.widget form input[type=submit]{
+background-color: var(--primary-color);
+width: 100%;
+padding: 10px;
+color: whitesmoke;
+text-transform: uppercase;
+border: none;
+transition: all .3s;
+font-family: "NunitoSans-Bold", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.widget form input[type=submit]:hover{
+    cursor: pointer;
+    background-color: var(--primary-color-dark);
+}
+
+.widget ul{
+    list-style-type:circle;
+    padding-left: 20px;
+
+}
+.widget ul li{
+    margin: 15px 0;
+}
+.widget blockquote{
+    color:var(--gray-color-dark);
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+    font-family: "NunitoSans-Bold", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media (max-width:600px){
+    aside {
+        width: 100%;
+    }
+}

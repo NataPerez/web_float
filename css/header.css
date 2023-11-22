@@ -1,0 +1,27 @@
+header{
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-family:'NunitoSans-Bold', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px 0 ;
+}
+
+header img {
+    width: 130px;
+    height: 150px;
+    margin-top: 5px;
+    border-radius: 30px;
+    transition: .3s;
+    filter: brightness(1);
+}
+
+header img:hover{
+    transform: scale(1.3);
+    filter: brightness(1.4);
+}
+
+header h1 {
+    color: var(--pirmary-color);
+    font-size: 50px;
+    text-shadow: 7px 7px 10px rgb(120, 116, 116) ;
+}

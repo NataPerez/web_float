@@ -1,0 +1,67 @@
+#menu-ppal{
+    float: left;
+    width: 100%;
+    background-color:var(--primary-color);
+    box-shadow: 7px 7px 5px var(--gray-color-dark);
+    text-transform: uppercase;
+    margin: 2px 5px;
+}
+#menu-ppal > ul>  li   {
+float: left;
+margin: 10px 0px;
+}
+#menu-ppal > ul>  li > a:hover{
+    background-color : var(--primary-color-dark)
+}
+
+#menu-ppal > ul>  li > a  {
+    color: whitesmoke;
+    padding: 10px 20px;
+    border-right:  2px  solid var(--gray-color);
+
+    font-size: 16px;
+}
+
+#menu-ppal > ul>  li > ul  {
+    display: none;
+    position: absolute;
+    margin-top: 11px;
+    background-color: var(--secondary-color);
+}
+#menu-ppal > ul>  li > ul >li >  a  {
+    display: block;
+    color:whitesmoke;
+    padding:  8px 10px;
+    font-size: 14px;
+    border-top: 2px solid var(--gray-color);
+    box-shadow: 3px 3px 3px var(--gray-color-dark);
+}
+#menu-ppal > ul>  li > ul >li >  a:hover {
+background-color: var(--secondary-color-dark);
+}
+#menu-ppal > ul >li:hover  > ul {
+    display: block;
+}
+
+@media (max-width: 600px){
+#menu-ppal ul> li {
+    width: 100%;
+    margin: 0;
+    border-bottom: 2px solid var(--gray-color);
+}
+#menu-ppal ul > li > a {
+    text-align: center;
+    display: block;
+}
+#menu-ppal ul > li > ul {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+#menu-ppal ul > li > ul > li {
+position: absolute
+top 0px;
+bottom: 0px;
+}
+}
+
